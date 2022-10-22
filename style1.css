@@ -1,0 +1,121 @@
+.sky{ width: 1800px;
+    height: 400px;
+
+}
+.city{
+    width: 1800px;
+    height: 500px;
+    position: relative;
+    bottom: 275px;
+    opacity: 100%;
+    background-repeat: repeat-x;
+    animation: pavan 12s linear infinite normal none;
+}
+@keyframes pavan {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.road{
+    height: 500px;
+    position: relative;
+    bottom: 510px;
+    opacity: 100%;
+    background-repeat: repeat-x;
+    animation: pavan1 30s linear infinite normal none;
+}
+@keyframes pavan1 {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+    
+}
+.car{
+    position: relative;
+    bottom: 850px;
+    left: 470px;
+    opacity: 100%;
+    background-repeat: repeat-x;
+    animation: pavan2 12s linear infinite normal;
+}
+.wheel{
+    position: relative;
+    bottom: 855px;
+    left: 195px;
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+.wheel1{
+    position: relative;
+    bottom: 855px;
+    left: 325px;
+    animation: rotate1 1s infinite linear;
+}
+@keyframes rotate1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+.sun{
+    position: relative;
+    bottom: 1500px;
+    left: 1200px;
+}
+.happy{
+    background-color: orange;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 1600px;
+    left: 400px;
+}
+.ind{
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 1600px;
+    left: 450px;
+
+}
+.day{
+    background-color: green;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 1600px;
+    left: 500px;
+}
+.flag{
+    position: relative;
+    bottom: 1070px;
+    left: 700px;
+    opacity: 100%;
+    background-repeat: repeat-x;
+    animation: pavan2 12s linear infinite normal;
+
+}

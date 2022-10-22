@@ -1,0 +1,163 @@
+body{
+    background-color: yellow;
+}
+div{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2em;
+    gap: 30px;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation: pavan 4s infinite;
+}
+@keyframes pavan {
+    0%{
+        transform: skewX(-30deg)
+    }
+    100%{
+        transform: skewX(20deg);
+    }   
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    animation: pavan1 4s infinite;
+}
+@keyframes pavan1 {
+    0%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+    
+    
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation: pavan2 4s infinite;
+}
+@keyframes pavan2 {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+    
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation: pavan3 4s infinite;
+}
+@keyframes pavan3{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 100px;
+        height: 50px;
+
+    }
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation: pavan4 4s infinite;
+}
+@keyframes pavan4{
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 30px;
+        height: 100px;
+
+    }
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: pavan5 4s infinite;
+}
+@keyframes pavan5{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.flex1{
+    display: flex;
+    padding: 2rem;
+    gap: 15px;
+    flex-flow: column wrap;
+    align-content: center;
+}
+span:nth-child(2){
+    display: inline-block;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.curr1{
+    transition: 4s linear;
+}
+.curr1:hover{
+    width: 300px;
+}
+.curr2{
+    transition: 4s linear;
+}
+.curr2:hover{
+    width: 300px;
+    height: 300px;
+}
+.curr3{
+    transition: 4s linear;
+}
+.curr3:hover{
+    width: 350px;
+}
+.curr4{
+    transition: 4s linear;
+}
+.curr4:hover{
+    width: 350px;
+}
+.curr5{
+    transition: 4s linear;
+}
+.curr5:hover{
+    width: 350px;
+}
+.curr6{
+    transition: 4s linear;
+}
+.curr6:hover{
+    width: 350px;
+}
+.curr7{
+    transition: 4s linear;
+}
+.curr7:hover{
+    width: 350px;
+}
